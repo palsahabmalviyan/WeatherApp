@@ -17,11 +17,11 @@ const App=()=>{
 
    return( 
      <>
-     <div className="fluid-container py-4 bg-dark ">
+     <div className="fluid-container py-4  ">
        <div className="navi"><h1 className="text-center">Welcome to Akash Weather Website</h1></div>
        <div className="row main_div">
        <div className="col-4"></div>
-       <div className="col-4 content ">
+       <div className="col-3 content ">
         <input type="search" className="inputField text-center" placeholder="Enter your City" 
           value={search}
           onChange ={(event)=>{

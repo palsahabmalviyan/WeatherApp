@@ -3,6 +3,10 @@
 
 *{
     font-family: 'Lobster', cursive;
+    
+}
+body{
+   background-image: url("https://nordicapis.com/wp-content/uploads/5-Best-Free-and-Paid-Weather-APIs-2019-e1587582023501.png");
 }
 
 .main_div
@@ -13,9 +17,9 @@
 .content
 {
    border: 2px solid black;
-   background-color: cadetblue;
+   background-color: skyblue;
    border-radius: 4px;
-   height: 500px;
+   height: 450px;
 }
 .inputField
 {
@@ -23,12 +27,16 @@
   margin-top: 25px;
   margin-bottom: 25px;
 }
-.fluid-container
-{
-   color: white;
+
+.SearchBar {
+   position: absolute;
+  
+   height: 100px;
+   width: 50px;
 }
 
 .navi
 {
    border: 4px solid midnightblue;
+   background-color: cadetblue;
 }
