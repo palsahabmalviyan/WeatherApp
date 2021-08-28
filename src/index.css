@@ -1,13 +1,34 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*{
+    font-family: 'Lobster', cursive;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.main_div
+{
+  padding-top: 70px;
+  padding-left: 20px;
+}
+.content
+{
+   border: 2px solid black;
+   background-color: cadetblue;
+   border-radius: 4px;
+   height: 500px;
+}
+.inputField
+{
+  margin-left: 115px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.fluid-container
+{
+   color: white;
+}
+
+.navi
+{
+   border: 4px solid midnightblue;
 }
