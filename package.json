@@ -13,7 +13,7 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "start": "node src/index.js",
+    "start": " npm run start:server",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
