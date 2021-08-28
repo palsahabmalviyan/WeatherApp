@@ -22,7 +22,7 @@ const App=()=>{
        <div className="row main_div">
        <div className="col-4"></div>
        <div className="col-4 content ">
-        <input type="search" className="inputField text-center" 
+        <input type="search" className="inputField text-center" placeholder="Enter your City" 
           value={search}
           onChange ={(event)=>{
                  changesearch(event.target.value)
