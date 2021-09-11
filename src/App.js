@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import "../node_modules/bootstrap/dist/css/bootstrap.css";
-
+      
 const App=()=>{
-   const[city , changecity]=useState("Delhi");
-   const[search,changesearch]=useState("Delhi");
+   const[city , changecity]=useState("");
+   const[search , changesearch]=useState("");
 
    useEffect(()=>{
      const fetchApi= async()=>{
@@ -18,7 +18,7 @@ const App=()=>{
    return( 
      <>
      <div className="fluid-container py-4  ">
-       <div className="navi"><h1 className="text-center">Welcome to Akash Weather Website</h1></div>
+       <marquee><h1 className="heading">Welcome to Akash Weather Website</h1></marquee>
        <div className="row main_div">
        <div className="col-4"></div>
        <div className="col-3 content ">
@@ -28,9 +28,9 @@ const App=()=>{
                  changesearch(event.target.value)
           }}/>
 
-      {!city ? (<p>no data found </p>):
+      {!city ? (<h1 class="nofound">no data found </h1>):
         <>
-         <h2 className="location text-center py-4">{search}</h2>
+         <h2 className="location text-center">{search}</h2>
          <h1 className="temp text-center py-4">Temp : {city.temp}&deg;C</h1>
          <h3 className="tempmin_max text-center py-4">Min : {city.temp_min}&deg;C | Max : {city.temp_max}&deg;C</h3>
         </>
